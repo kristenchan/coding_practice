@@ -8,8 +8,5 @@ class Solution:
                 tmp = tmp.next
             i.next = tmp
             i = i.next
-        return i
-
-
-
+        return head
 
