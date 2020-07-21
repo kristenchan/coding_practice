@@ -11,6 +11,7 @@ class Solution:
             m = (l + h) // 2
             if self.isBadVersion(m):
                 if m ==1 or not self.isBadVersion(m-1) :
+                    # if m-1 is good version means m is bad version
                     return m
                 h = m -1
             else:
